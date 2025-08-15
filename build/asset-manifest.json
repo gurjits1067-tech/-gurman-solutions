@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/-gurman-solutions/static/css/main.d05ad4b1.css",
+    "main.js": "/-gurman-solutions/static/js/main.6c0a2717.js",
+    "static/js/453.904439aa.chunk.js": "/-gurman-solutions/static/js/453.904439aa.chunk.js",
+    "index.html": "/-gurman-solutions/index.html",
+    "main.d05ad4b1.css.map": "/-gurman-solutions/static/css/main.d05ad4b1.css.map",
+    "main.6c0a2717.js.map": "/-gurman-solutions/static/js/main.6c0a2717.js.map",
+    "453.904439aa.chunk.js.map": "/-gurman-solutions/static/js/453.904439aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d05ad4b1.css",
+    "static/js/main.6c0a2717.js"
+  ]
+}
