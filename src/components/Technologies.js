@@ -18,23 +18,23 @@ const Technologies = () => {
             </div>
             <div className="tech-grid">
               <div className="tech-item react">
-                <span className="tech-logo">⚛️</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #61dafb, #21759b)', color: 'white', fontSize: '16px'}}>R</div>
                 <span className="tech-name">ReactJS</span>
               </div>
               <div className="tech-item angular">
-                <span className="tech-logo">🅰️</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #dd0031, #c3002f)', color: 'white', fontSize: '16px'}}>A</div>
                 <span className="tech-name">Angular</span>
               </div>
               <div className="tech-item javascript">
-                <span className="tech-logo">🟨</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #f7df1e, #f0db4f)', color: '#323330', fontSize: '16px'}}>JS</div>
                 <span className="tech-name">JavaScript</span>
               </div>
               <div className="tech-item html">
-                <span className="tech-logo">🌐</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #e34f26, #f06529)', color: 'white', fontSize: '14px'}}>H5</div>
                 <span className="tech-name">HTML5</span>
               </div>
               <div className="tech-item css">
-                <span className="tech-logo">🎨</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #1572b6, #33a9dc)', color: 'white', fontSize: '16px'}}>C</div>
                 <span className="tech-name">CSS3</span>
               </div>
             </div>
@@ -47,27 +47,27 @@ const Technologies = () => {
             </div>
             <div className="tech-grid">
               <div className="tech-item nodejs">
-                <span className="tech-logo">🟢</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #339933, #66bb6a)', color: 'white', fontSize: '14px'}}>N</div>
                 <span className="tech-name">Node.js</span>
               </div>
               <div className="tech-item java">
-                <span className="tech-logo">☕</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #f89820, #ed8b00)', color: 'white', fontSize: '16px'}}>J</div>
                 <span className="tech-name">Java</span>
               </div>
               <div className="tech-item spring">
-                <span className="tech-logo">🍃</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #6db33f, #4caf50)', color: 'white', fontSize: '14px'}}>S</div>
                 <span className="tech-name">Spring Boot</span>
               </div>
               <div className="tech-item php">
-                <span className="tech-logo">🐘</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #777bb4, #8892bf)', color: 'white', fontSize: '14px'}}>P</div>
                 <span className="tech-name">PHP</span>
               </div>
               <div className="tech-item react-native">
-                <span className="tech-logo">📱</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #61dafb, #21759b)', color: 'white', fontSize: '12px'}}>RN</div>
                 <span className="tech-name">React Native</span>
               </div>
               <div className="tech-item cpp">
-                <span className="tech-logo">🔧</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #00599c, #004482)', color: 'white', fontSize: '12px'}}>C++</div>
                 <span className="tech-name">C/C++</span>
               </div>
             </div>
@@ -80,23 +80,23 @@ const Technologies = () => {
             </div>
             <div className="tech-grid">
               <div className="tech-item aws">
-                <span className="tech-logo">☁️</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #ff9900, #ff6600)', color: 'white', fontSize: '12px'}}>AWS</div>
                 <span className="tech-name">AWS</span>
               </div>
               <div className="tech-item mongodb">
-                <span className="tech-logo">🍃</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #47a248, #4caf50)', color: 'white', fontSize: '14px'}}>M</div>
                 <span className="tech-name">MongoDB</span>
               </div>
               <div className="tech-item mysql">
-                <span className="tech-logo">🐬</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #4479a1, #00758f)', color: 'white', fontSize: '14px'}}>My</div>
                 <span className="tech-name">MySQL</span>
               </div>
               <div className="tech-item sql">
-                <span className="tech-logo">📊</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #336791, #235a81)', color: 'white', fontSize: '14px'}}>SQL</div>
                 <span className="tech-name">SQL</span>
               </div>
               <div className="tech-item dynamodb">
-                <span className="tech-logo">⚡</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #ff9900, #ff6600)', color: 'white', fontSize: '12px'}}>DB</div>
                 <span className="tech-name">DynamoDB</span>
               </div>
             </div>
@@ -109,15 +109,15 @@ const Technologies = () => {
             </div>
             <div className="tech-grid">
               <div className="tech-item wordpress">
-                <span className="tech-logo">📝</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #21759b, #0073aa)', color: 'white', fontSize: '14px'}}>WP</div>
                 <span className="tech-name">WordPress</span>
               </div>
               <div className="tech-item devops">
-                <span className="tech-logo">🔄</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #326ce5, #1e88e5)', color: 'white', fontSize: '12px'}}>DO</div>
                 <span className="tech-name">DevOps</span>
               </div>
               <div className="tech-item api">
-                <span className="tech-logo">🔌</span>
+                <div className="tech-logo" style={{background: 'linear-gradient(45deg, #2563eb, #3b82f6)', color: 'white', fontSize: '12px'}}>API</div>
                 <span className="tech-name">APIs</span>
               </div>
             </div>
