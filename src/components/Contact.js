@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 const Contact = () => {
@@ -19,17 +20,40 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // You can add actual form submission logic later
-    alert('Thank you for your message! We\'ll get back to you soon.');
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      projectType: '',
-      message: ''
-    });
+    
+    // EmailJS configuration - UPDATE THESE WITH YOUR EMAILJS VALUES
+    const serviceId = 'service_k8iqrme'; // Replace with your EmailJS Service ID
+    const templateId = 'template_7o54txb'; // Replace with your EmailJS Template ID  
+    const publicKey = 'VcuEOVl2hN6wo6lb5'; // Replace with your EmailJS Public Key
+    
+    // Prepare template parameters
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      company: formData.company,
+      project_type: formData.projectType,
+      message: formData.message,
+      to_email: 'gemindtechnologies2025@gmail.com', // Your email
+    };
+
+    // Send email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text);
+        alert('Thank you for your message! We\'ll get back to you soon.');
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          projectType: '',
+          message: ''
+        });
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error);
+        alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
+      });
   };
 
   return (
@@ -54,7 +78,7 @@ const Contact = () => {
                 <span className="contact-icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>info@gurmansolutions.com</p>
+                  <p>gemindtechnologies2025@gmail.com</p>
                 </div>
               </div>
               
@@ -76,11 +100,9 @@ const Contact = () => {
             </div>
             
             <div className="contact-social">
-              <h4>Follow Us</h4>
+              <h4>Connect With Us</h4>
               <div className="social-links">
-                <a href="#" className="social-link">LinkedIn</a>
-                <a href="#" className="social-link">GitHub</a>
-                <a href="#" className="social-link">Twitter</a>
+                <p className="social-message">We'll be on social media soon! For now, reach us via email or phone.</p>
               </div>
             </div>
           </div>

@@ -13,8 +13,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <h2>
-            <span className="logo-gurman">GURMAN</span>
-            <span className="logo-solutions">SOLUTIONS</span>
+            <span className="logo-gurman">GeMind TECHNOLOGIES</span>
           </h2>
         </div>
         

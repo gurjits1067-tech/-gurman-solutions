@@ -44,6 +44,18 @@ const Services = () => {
       title: 'Small Tech Gigs & Consulting',
       description: 'Quick fixes, small features, technical consulting, and maintenance work for businesses of all sizes.',
       features: ['Quick Fixes', 'Feature Additions', 'Technical Consulting', 'Code Reviews']
+    },
+    {
+      icon: '🤖',
+      title: 'AI & Machine Learning Solutions',
+      description: 'Cutting-edge AI solutions to automate processes, enhance decision-making, and drive business intelligence.',
+      features: ['AI Chatbots & Virtual Assistants', 'Predictive Analytics', 'Machine Learning Models', 'Data Analysis & Insights']
+    },
+    {
+      icon: '🔗',
+      title: 'IT System Integration',
+      description: 'Seamlessly connect and integrate your business systems for improved efficiency and data flow.',
+      features: ['API Development & Integration', 'Database Synchronization', 'Cloud Migration Services', 'Third-party System Integration']
     }
   ];
 

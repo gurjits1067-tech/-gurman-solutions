@@ -7,8 +7,8 @@ const About = () => {
       <div className="container">
         <div className="section-header about-header">
           <h2>
-            <span className="company-name">GURMAN</span>
-            <span className="company-type">SOLUTIONS</span>
+            <span className="company-name">GeMind</span>
+            <span className="company-type">TECHNOLOGIES</span>
           </h2>
           <p>Your trusted partner in digital transformation</p>
         </div>
@@ -17,7 +17,7 @@ const About = () => {
           <div className="about-text">
             <h3>Who We Are</h3>
             <p>
-              Gurman Solutions is a dynamic web development company founded by passionate 
+              Gemind TECHNOLOGIES is a dynamic web development company founded by passionate 
               developers who understand the power of a strong online presence. We specialize 
               in creating custom websites and web applications that not only look great but 
               also drive real business results.

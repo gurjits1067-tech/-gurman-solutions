@@ -26,7 +26,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   position: relative;
 }
@@ -144,7 +144,7 @@
   font-weight: 700;
   margin: 0;
   flex-grow: 1;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
 }
 
@@ -257,7 +257,7 @@
   color: #00d4ff;
   font-size: 0.8rem;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.5px;
 }
 
@@ -290,7 +290,7 @@
 .stat-label {
   color: #64748b;
   font-size: 0.85rem;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
 }
 
@@ -361,7 +361,7 @@
   font-size: 0.95rem;
   color: var(--text-secondary);
   margin: 0;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   font-weight: 600;
   opacity: 0.9;
@@ -555,7 +555,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .company-name {

@@ -7,15 +7,13 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Gurman Solutions</h3>
+            <h3>GeMind TECHNOLOGIES</h3>
             <p>
               Empowering businesses with innovative web solutions. 
               We create digital experiences that drive growth and success.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-link">LinkedIn</a>
-              <a href="#" className="social-link">GitHub</a>
-              <a href="#" className="social-link">Twitter</a>
+              <p className="social-coming-soon">Social media profiles coming soon!</p>
             </div>
           </div>
           
@@ -45,7 +43,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <div className="contact-info">
-              <p>📧 info@gurmansolutions.com</p>
+              <p>📧 gemindtechnologies2025@gmail.com</p>
               <p>📱 +91-9914797182</p>
               <p>📍 Remote & On-site Services</p>
             </div>
@@ -54,10 +52,9 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; 2025 Gurman Solutions. All rights reserved.</p>
+            <p>&copy; 2025 GeMind TECHNOLOGIES. All rights reserved.</p>
             <div className="footer-bottom-links">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Service</a>
+              <span className="coming-soon">Legal pages coming soon</span>
             </div>
           </div>
         </div>

@@ -2,8 +2,8 @@
   padding: 120px 0;
   background: var(--secondary-bg);
   background-image: 
-    linear-gradient(135deg, rgba(248, 250, 252, 0.8) 0%, rgba(241, 245, 249, 0.8) 100%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(37,99,235,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    radial-gradient(circle at 30% 20%, rgba(45, 55, 72, 0.04) 0%, transparent 60%),
+    radial-gradient(circle at 70% 80%, rgba(113, 128, 150, 0.03) 0%, transparent 60%);
   position: relative;
   overflow: hidden;
 }
@@ -16,9 +16,10 @@
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.02) 0%, transparent 30%),
-    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.02) 0%, transparent 30%);
-  animation: tech-pattern 30s linear infinite;
+    linear-gradient(60deg, transparent 49%, rgba(45, 55, 72, 0.015) 49%, rgba(45, 55, 72, 0.015) 51%, transparent 51%),
+    linear-gradient(-60deg, transparent 49%, rgba(113, 128, 150, 0.015) 49%, rgba(113, 128, 150, 0.015) 51%, transparent 51%);
+  background-size: 100px 100px;
+  animation: tech-pattern 40s linear infinite;
 }
 
 @keyframes tech-pattern {
@@ -51,16 +52,18 @@
 }
 
 .tech-category-card {
-  background: white;
-  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(45, 55, 72, 0.1);
   border-radius: 16px;
   padding: 30px;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
   box-shadow: 
-    0 4px 12px rgba(30, 41, 59, 0.08),
-    0 2px 4px rgba(30, 41, 59, 0.04);
+    0 4px 15px rgba(45, 55, 72, 0.08),
+    0 2px 6px rgba(113, 128, 150, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
 }
 
 .tech-category-card::before {
@@ -75,27 +78,28 @@
 }
 
 .frontend-tech::before {
-  background: linear-gradient(90deg, #f59e0b 0%, #f97316 100%);
+  background: linear-gradient(90deg, #38a169 0%, #48bb78 100%);
 }
 
 .backend-tech::before {
-  background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+  background: linear-gradient(90deg, #3182ce 0%, #4299e1 100%);
 }
 
 .database-tech::before {
-  background: linear-gradient(90deg, #059669 0%, #10b981 100%);
+  background: linear-gradient(90deg, #2d3748 0%, #4a5568 100%);
 }
 
 .tools-tech::before {
-  background: linear-gradient(90deg, #7c3aed 0%, #8b5cf6 100%);
+  background: linear-gradient(90deg, #718096 0%, #a0aec0 100%);
 }
 
 .tech-category-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--tech-light);
+  transform: translateY(-4px);
+  border-color: rgba(45, 55, 72, 0.2);
   box-shadow: 
-    0 15px 35px rgba(30, 41, 59, 0.12),
-    0 5px 15px rgba(30, 41, 59, 0.08);
+    0 12px 30px rgba(45, 55, 72, 0.12),
+    0 4px 12px rgba(113, 128, 150, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
 }
 
 .tech-category-header {
@@ -138,8 +142,8 @@
   display: flex;
   align-items: center;
   padding: 12px 16px;
-  background: rgba(248, 250, 252, 0.8);
-  border: 1px solid rgba(226, 232, 240, 0.6);
+  background: rgba(45, 55, 72, 0.03);
+  border: 1px solid rgba(45, 55, 72, 0.08);
   border-radius: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -147,10 +151,12 @@
 }
 
 .tech-item:hover {
-  background: white;
-  border-color: var(--tech-blue);
+  background: rgba(45, 55, 72, 0.05);
+  border-color: rgba(45, 55, 72, 0.15);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+  box-shadow: 
+    0 4px 12px rgba(45, 55, 72, 0.12),
+    0 2px 6px rgba(113, 128, 150, 0.08);
 }
 
 .tech-logo {
@@ -161,9 +167,9 @@
   justify-content: center;
   width: 28px;
   height: 28px;
-  background: rgba(255, 255, 255, 0.8);
   border-radius: 6px;
-  border: 1px solid rgba(226, 232, 240, 0.5);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tech-name {
@@ -174,7 +180,7 @@
 }
 
 .tech-item:hover .tech-name {
-  color: var(--tech-blue);
+  color: var(--charcoal-primary);
 }
 
 /* Tech Stats */
