@@ -1,7 +1,7 @@
 {
   "name": "gurmansystems",
   "version": "0.1.0",
-  "homepage": "https://gemindtech.co.in",
+  "homepage": "https://www.gemindtech.co.in",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

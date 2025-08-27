@@ -54,6 +54,43 @@
   opacity: 0.9;
 }
 
+/* Owner highlight section styling */
+.owner-highlight {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(191, 90, 242, 0.1));
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  border-radius: 16px;
+  padding: 25px;
+  margin: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.owner-highlight::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-primary);
+  opacity: 0.8;
+}
+
+.owner-highlight h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+.owner-highlight p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
 
 
 

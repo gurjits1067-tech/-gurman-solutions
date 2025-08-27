@@ -75,9 +75,18 @@ const Contact = () => {
             
             <div className="contact-details">
               <div className="contact-item">
+                <span className="contact-icon">👨‍💼</span>
+                <div>
+                  <h4>Owner</h4>
+                  <p><strong>Balwinder Singh</strong></p>
+                  <p>📱 +91-9416084901</p>
+                </div>
+              </div>
+              
+              <div className="contact-item">
                 <span className="contact-icon">📧</span>
                 <div>
-                  <h4>Email</h4>
+                  <h4>Business Email</h4>
                   <p>gemindtechnologies2025@gmail.com</p>
                 </div>
               </div>
@@ -85,7 +94,7 @@ const Contact = () => {
               <div className="contact-item">
                 <span className="contact-icon">📱</span>
                 <div>
-                  <h4>Phone</h4>
+                  <h4>Business Phone</h4>
                   <p>+91-9914797182</p>
                 </div>
               </div>

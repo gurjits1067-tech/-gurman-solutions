@@ -23,6 +23,15 @@ const About = () => {
               also drive real business results.
             </p>
             
+            <div className="owner-highlight">
+              <h4>👨‍💼 Meet Our Founder</h4>
+              <p>
+                <strong>Balwinder Singh</strong> leads our team with a vision to deliver 
+                exceptional digital solutions. With expertise in modern web technologies, 
+                Balwinder ensures every project meets the highest standards of quality and innovation.
+              </p>
+            </div>
+            
             <h3>Our Mission</h3>
             <p>
               To empower businesses with cutting-edge digital solutions that enhance their 

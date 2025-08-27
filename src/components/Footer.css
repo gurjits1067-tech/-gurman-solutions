@@ -98,9 +98,28 @@
 .footer-section p {
   color: var(--text-secondary);
   line-height: 1.7;
+}
+
+/* Owner information styling */
+.owner-info {
   margin-bottom: 20px;
-  font-size: 1.05rem;
-  opacity: 0.9;
+  padding: 15px;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(191, 90, 242, 0.1));
+  border-radius: 12px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.owner-info p:first-child {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.business-info {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-section ul {
@@ -201,16 +220,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 25px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 212, 255, 0.2);
+  position: relative;
 }
 
-.footer-bottom p {
+.footer-bottom-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: var(--gradient-primary);
+  opacity: 0.6;
+}
+
+.footer-bottom-content p {
   color: var(--text-secondary);
-  margin: 0;
   font-size: 1rem;
-  font-weight: 500;
-  opacity: 0.8;
+  margin: 0;
+}
+
+/* Owner name styling in footer bottom */
+.footer-bottom-content p:nth-child(2) {
+  color: var(--text-primary);
+  font-weight: 600;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .footer-bottom-links {

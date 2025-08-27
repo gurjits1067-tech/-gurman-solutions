@@ -98,6 +98,18 @@
   opacity: 0.8;
 }
 
+/* Special styling for owner contact item */
+.contact-item:first-child {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(191, 90, 242, 0.1));
+  border: 2px solid rgba(0, 212, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.2);
+}
+
+.contact-item:first-child::before {
+  background: linear-gradient(180deg, #00d4ff, #bf5af2);
+  width: 6px;
+}
+
 .contact-item:hover {
   transform: translateX(5px);
   border-color: var(--neon-blue);

@@ -43,9 +43,15 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <div className="contact-info">
-              <p>📧 gemindtechnologies2025@gmail.com</p>
-              <p>📱 +91-9914797182</p>
-              <p>📍 Remote & On-site Services</p>
+              <div className="owner-info">
+                <p><strong>👨‍💼 Owner: Balwinder Singh</strong></p>
+                <p>📱 +91-9416084901</p>
+              </div>
+              <div className="business-info">
+                <p>📧 gemindtechnologies2025@gmail.com</p>
+                <p>📱 +91-9914797182 (Business)</p>
+                <p>📍 Remote & On-site Services</p>
+              </div>
             </div>
           </div>
         </div>
@@ -53,6 +59,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; 2025 GeMind TECHNOLOGIES. All rights reserved.</p>
+            <p><strong>Owner: Balwinder Singh</strong></p>
             <div className="footer-bottom-links">
               <span className="coming-soon">Legal pages coming soon</span>
             </div>
